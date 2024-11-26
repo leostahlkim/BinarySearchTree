@@ -1,0 +1,54 @@
+/**********************************************************
+* Project 3: Binary Search Tree
+* CS 15
+* README
+* Written by: Leo Kim
+* Date: 4/4/22
+*********************************************************/
+
+Program Purpose:
+
+    The purpose of this class is to be a fully function implementation
+of a binary search tree with built in functions for insertion, deletion,
+creation and more.
+
+
+Files:
+
+    BinarySearchTree.h:
+        Class declaration for the BinarySearchTree class. 
+    
+    BinarySearchTree.cpp:
+        Class implementation for the BinarySearchTree class.
+    
+    hw3.cpp:
+        Test driver for testing the BinarySearchTree class against the
+    reference implementation.
+
+    unit_tests.h:
+        Contains all the unit tests I ran in testing my programs.
+
+    Makefile:
+        Contains all the make rules to build the necessary .o and testing 
+    files.
+
+How to Compile/run:
+
+    While there is not a final main executable program for this project, to
+make and compile the hw3 test driver you:
+    - Compile using
+        make hw3
+    - run executable with
+        ./hw3
+To make and compile the unit_tests you just have to type the command unit_test
+while on the Tufts CS servers.
+
+Testing:
+    In order to test my BinarySearchTree class I used the unit testing 
+framework. After every function I wrote, I would create a variety of different
+unit tests for it that covered every possible edge case I couldthink of. When
+unit tests failed, I would print error messages using cout at different points
+in the function to see where the function was failing.
+    After I had tested all of my BinarySearchTree class functions with unit
+testing, I then used diff testing with my hw3 testing driver and the reference
+implementation to ensure all the outputs matched.
