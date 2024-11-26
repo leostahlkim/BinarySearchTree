@@ -1,14 +1,6 @@
 /*
  * main.cpp
  *
- *  Created on: Oct 13, 2014
- *      Author: chrisgregg
- *    
- *  Change log:
- *      2016-03-09:  [MAS] corrected comments to agree with actual tree 
- *                         structure (Correction from Jacob Ryan)
- *                   [MAS] compute size of array rather than use
- *                         hard-coded constant 
  *
  *  Main driver for testing the BinarySearchTree class
  */
