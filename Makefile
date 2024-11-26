@@ -1,7 +1,6 @@
 #
 # Makefile for Binary Search Tree
 #
-# Homework 3 (fall 2021)
 #
 
 CXX      = clang++
